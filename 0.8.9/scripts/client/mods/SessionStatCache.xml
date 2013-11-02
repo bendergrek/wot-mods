@@ -1,35 +1,68 @@
 <SessionStatCache.xml>
 	<clsv>
-		<createTime>	30.10.2013	</createTime>
+		<createTime>	01.11.2013	</createTime>
 		<variableValues>
-			<serviceCost>	-300521	</serviceCost>
-			<receivedCreditsBattle>	13163	</receivedCreditsBattle>
-			<serviceCostBattle>	-5873	</serviceCostBattle>
-			<totalFreeXP>	458	</totalFreeXP>
-			<receivedCredits>	375776	</receivedCredits>
-			<totalXPRatio>	9330	</totalXPRatio>
-			<totalVehicleTier>	102	</totalVehicleTier>
+			<serviceCost>	-640818	</serviceCost>
+			<receivedCreditsBattle>	30884	</receivedCreditsBattle>
+			<serviceCostBattle>	-14322	</serviceCostBattle>
+			<totalFreeXP>	1166	</totalFreeXP>
+			<receivedCredits>	796309	</receivedCredits>
+			<totalXPRatio>	23650	</totalXPRatio>
+			<totalVehicleTier>	242	</totalVehicleTier>
 		</variableValues>
 		<stats>
-			<freeXP>	210205	</freeXP>
-			<damageAssistedTrack>	21159	</damageAssistedTrack>
+			<freeXP>	211823	</freeXP>
+			<damageAssistedTrack>	27136	</damageAssistedTrack>
 			<gold>	352	</gold>
-			<totalXP>	6270954	</totalXP>
-			<damageReceived>	7668438	</damageReceived>
-			<capturePoints>	23916	</capturePoints>
-			<damageDealt>	10829306	</damageDealt>
-			<deathsCount>	7327	</deathsCount>
-			<fragsCount>	12752	</fragsCount>
-			<droppedCapturePoints>	12347	</droppedCapturePoints>
-			<spottedCount>	10863	</spottedCount>
-			<credits>	6016552	</credits>
-			<battlesCount>	11489	</battlesCount>
-			<winsCount>	6676	</winsCount>
-			<shotsCount>	104390	</shotsCount>
-			<originalXP>	117018	</originalXP>
-			<lossesCount>	4614	</lossesCount>
-			<hitsCount>	65780	</hitsCount>
-			<damageAssistedRadio>	97340	</damageAssistedRadio>
+			<totalXP>	6299298	</totalXP>
+			<damageReceived>	7721546	</damageReceived>
+			<capturePoints>	24036	</capturePoints>
+			<damageDealt>	10920292	</damageDealt>
+			<deathsCount>	7352	</deathsCount>
+			<fragsCount>	12820	</fragsCount>
+			<droppedCapturePoints>	12356	</droppedCapturePoints>
+			<spottedCount>	10891	</spottedCount>
+			<credits>	5518996	</credits>
+			<battlesCount>	11532	</battlesCount>
+			<winsCount>	6706	</winsCount>
+			<shotsCount>	104917	</shotsCount>
+			<originalXP>	145362	</originalXP>
+			<lossesCount>	4627	</lossesCount>
+			<hitsCount>	66140	</hitsCount>
+			<damageAssistedRadio>	125889	</damageAssistedRadio>
 		</stats>
 	</clsv>
+	<KondratiyG>
+		<createTime>	01.11.2013	</createTime>
+		<variableValues>
+			<serviceCost>	-53766	</serviceCost>
+			<receivedCreditsBattle>	24105	</receivedCreditsBattle>
+			<serviceCostBattle>	-35058	</serviceCostBattle>
+			<totalFreeXP>	300	</totalFreeXP>
+			<receivedCredits>	82912	</receivedCredits>
+			<totalXPRatio>	6177	</totalXPRatio>
+			<totalVehicleTier>	24	</totalVehicleTier>
+		</variableValues>
+		<stats>
+			<freeXP>	19042	</freeXP>
+			<damageAssistedTrack>	114353	</damageAssistedTrack>
+			<gold>	688	</gold>
+			<totalXP>	8528595	</totalXP>
+			<damageReceived>	10101813	</damageReceived>
+			<capturePoints>	18546	</capturePoints>
+			<damageDealt>	16599729	</damageDealt>
+			<deathsCount>	8293	</deathsCount>
+			<fragsCount>	13943	</fragsCount>
+			<droppedCapturePoints>	14065	</droppedCapturePoints>
+			<spottedCount>	12131	</spottedCount>
+			<credits>	2500353	</credits>
+			<battlesCount>	12592	</battlesCount>
+			<winsCount>	7026	</winsCount>
+			<shotsCount>	118577	</shotsCount>
+			<originalXP>	840524	</originalXP>
+			<lossesCount>	5351	</lossesCount>
+			<hitsCount>	78975	</hitsCount>
+			<damageAssistedRadio>	581475	</damageAssistedRadio>
+		</stats>
+	</KondratiyG>
 </SessionStatCache.xml>
