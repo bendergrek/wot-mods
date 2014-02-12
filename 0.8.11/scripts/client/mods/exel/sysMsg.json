@@ -13,27 +13,27 @@
         },
 	"battleDefeatResult": {
             "type": "red",
-			"message":"{{result}}{{arenaName}}{{vehicle}}{{xp}}{{xpPenalty}}{{credits}}{{pure}}{{creditsContributionIn}}{{creditsContributionOut}}{{achieves}}{{quests}}",
-            "icon": "BattleResultIcon"
+			"message":"{{result}}{{arenaName}}{{vehicle}}{{xp}}{{xpPenalty}}{{credits}}{{creditsContributionIn}}{{creditsContributionOut}}{{nextLine}}{{pure}}{{tmenXP}}{{achieves}}{{quests}}",
+            "icon": ""
         },
 	"battleDrawGameResult": {
             "type": "yellow",
-			"message":"{{result}}{{arenaName}}{{vehicle}}{{xp}}{{xpPenalty}}{{credits}}{{pure}}{{creditsContributionIn}}{{creditsContributionOut}}{{achieves}}{{quests}}",
-            "icon": "ClanBattleResultIcon"
+			"message":"{{result}}{{arenaName}}{{vehicle}}{{xp}}{{xpPenalty}}{{credits}}{{creditsContributionIn}}{{creditsContributionOut}}{{nextLine}}{{pure}}{{tmenXP}}{{achieves}}{{quests}}",
+            "icon": ""
         },
 	"battleVictoryResult": {
             "type": "green",
-			"message":"{{result}}{{arenaName}}{{vehicle}}{{xp}}{{xpPenalty}}{{credits}}{{pure}}{{creditsContributionIn}}{{creditsContributionOut}}{{achieves}}{{quests}}",
-            "icon": "TournamentBattleResultIcon"
+			"message":"{{result}}{{arenaName}}{{vehicle}}{{xp}}{{xpPenalty}}{{credits}}{{creditsContributionIn}}{{creditsContributionOut}}{{nextLine}}{{pure}}{{tmenXP}}{{achieves}}{{quests}}",
+            "icon": ""
         },
 	"messages":{
 		"amf":{
 			"autoRepairError":"autoRepairError",
 			"autoLoadError":"autoLoadError",
 			"autoEquipError":"autoEquipError",
-			"autoRepairSuccess":"<font color='#00FF00'>Ремонт {{vehicle}} потрачено {{credits}}</font>",
-			"autoLoadSuccess":"<font color='#00FF00'>БК {{vehicle}} потрачено {{credits}}</font>",
-			"autoEquipSuccess":"<font color='#00FF00'>Снаряжение {{vehicle}} потрачено {{credits}}</font>",
+			"autoRepairSuccess":"<font color='#929290'>Ремонт {{vehicle}} потрачено </font><font color='#BDBDBB'>{{credits}}</font>",
+			"autoLoadSuccess":"<font color='#929290'>Боекомплект {{vehicle}} потрачено </font><font color='#BDBDBB'>{{credits}}</font>",
+			"autoEquipSuccess":"<font color='#929290'>Снаряжение {{vehicle}} потрачено </font><font color='#BDBDBB'>{{credits}}</font>",
 			"autoRepairSkipped":"autoRepairSkipped",
 			"autoLoadSkipped":"autoLoadSkipped",
 			"autoEquipSkipped":"autoEquipSkipped",
@@ -42,25 +42,27 @@
 			"autoEquipDisabledOption":"autoEquipDisabledOption",
 			"autoRepairErrorNoWallet":"autoLoadErrorNoWallet",
 			"autoEquipErrorNoWallet":"autoEquipErrorNoWallet",
-			"RepairCost":"Ремонт: {{RepairCost}} <img src='img://gui/maps/icons/library/CreditsIconBig-1.png' width='8' height='8' align='baseline' vspace='-2'>\n",
-			"AmmoCost":"Боекомплект: {{AmmoCost}} <img src='img://gui/maps/icons/library/CreditsIconBig-1.png' width='8' height='8' align='baseline' vspace='-2'>\n",
-			"EquipCost":"Снаряжение: {{EquipCost}} <img src='img://gui/maps/icons/library/CreditsIconBig-1.png' width='8' height='8' align='baseline' vspace='-2'>\n"},
+			"RepairCost":"<tab><img src='img://gui/maps/icons/artefact/remove.png' width='20' height='20' align='baseline' vspace='-14'> <font color='#929290' size='13'>Ремонт: </font><font color='#BDBDBB' size='12'>{{RepairCost}}</font>  <img src='img://gui/maps/icons/library/CreditsIcon-1.png' width='12' height='12' align='baseline' vspace='0'>\n",
+			"AmmoCost":"<tab><img src='img://gui/maps/icons/shell/ARMOR_PIERCING_HE.png' width='20' height='20' align='baseline' vspace='-14'> <font color='#929290' size='13'>Боекомплект: </font><font color='#BDBDBB' size='12'>{{AmmoCost}}</font>  <img src='img://gui/maps/icons/library/CreditsIcon-1.png' width='12' height='12' align='baseline' vspace='0'>\n",
+			"EquipCost":"<tab><img src='img://gui/maps/icons/artefact/toolbox.png' width='20' height='20' align='baseline' vspace='-14'> <font color='#929290' size='13'>Снаряжение: </font><font color='#BDBDBB' size='12'>{{EquipCost}}</font>  <img src='img://gui/maps/icons/library/CreditsIcon-1.png' width='12' height='12' align='baseline' vspace='0'>\n"		
+			},
 		"brf":{
-			"isWin":"<font color='#60FF00' size='13'>Победа!</font>\n",
-			"isDraw":"<font color='#FE7903' size='13'>Ничья</font>\n",
-			"isDefeat":"<font color='#FE0E00' size='13'>Поражение</font>\n",
-			"xp":"Получено:{{dailyXPFactor}} {{xp}}<img src='img://gui/maps/icons/library/XpIcon-1.png' width='14' height='14' align='baseline' vspace='-4'>",
-			"vehicle":"<font color='#FFBC33' size='12'>{{vehicle}}</font>\n",
-			"credits":"  {{credits}} <img src='img://gui/maps/icons/library/CreditsIconBig-1.png' width='8' height='8' align='baseline' vspace='-2'>\n",
-			"purecredits":"{{RepairCost}}{{AmmoCost}}{{EquipCost}}<font color='#FFBC33'><b>Итого:</b></font><tab><font color='{{c:pureCredits}}'><b>{{pureCredits}}</b></font> <img src='img://gui/maps/icons/library/CreditsIconBig-1.png' width='8' height='8' align='baseline' vspace='-2'>\n",
-			"tmenXP":"Опыт экипажу:<tab>{{tmenXP}} <img src='img://gui/maps/icons/library/XpIcon-1.png' width='15' height='15' align='baseline' vspace='-4'>\n",
-			"arenaName":"{{arenaName}}<tab>{{createdAt}}\n",
+			"isWin":"\n<img src='img://scripts/client/mods/exel/icons/win.png' width='200' height='55' align='baseline' vspace='0'>\n\n",
+			"isDraw":"\n<img src='img://scripts/client/mods/exel/icons/draw.png' width='200' height='55' align='baseline' vspace='0'>\n\n",
+			"isDefeat":"\n<img src='img://scripts/client/mods/exel/icons/damage.png' width='200' height='55' align='baseline' vspace='0'>\n\n",
+			"arenaName":"<font color='#929290' size='13'>Карта: </font><font color='#C5AB5D' size='15'>{{arenaName}}</font>\n\n",
+			"vehicle":"<img src='img://gui/maps/icons/library/dossier/survival40x32.png' width='40' height='32' align='baseline' vspace='-8'><textformat leading='4'> <font color='#C5AB5D' size='15'><b>{{vehicle}}</b></font></textformat>\n\n",
+			"xp":"<font color='#929290' size='15'>Получено: </font><font color='#BDBDBB' size='13'>{{xp}}</font><img src='img://gui/maps/icons/library/XpIcon-1.png' width='15' height='15' align='baseline' vspace='-2'><font color='#66CC66' size='13'> {{dailyXPFactor}}</font>",
+			"credits":"<font color='#BDBDBB' size='13'>  {{credits}}</font> <img src='img://gui/maps/icons/library/CreditsIcon-1.png' width='12' height='12' align='baseline' vspace='0'>",
+			"xpPenalty":"\n(<font color='#F46262' size='10'>штраф: </font><font color='#BDBDBB' size='10'>{{xpPenalty}}</font> <img src='img://gui/maps/icons/library/XpIcon-1.png' width='15' height='15' align='baseline' vspace='-2'>)\n",
+			"creditsContributionIn":"\n(<font color='#66CC66' size='10'>компенсация: </font><font color='#BDBDBB size='10'>{{creditsContributionIn}}</font> <img src='img://gui/maps/icons/library/CreditsIcon-1.png' width='12' height='12' align='baseline' vspace='0'>)\n",
+			"creditsContributionOut":"\n(<font color='#F46262' size='10'>штраф: </font><font color='#BDBDBB size='10'>{{creditsContributionOut}}</font> <img src='img://gui/maps/icons/library/CreditsIcon-1.png' width='12' height='12' align='baseline' vspace='0'>)\n",
+			"nextLine":"\n",
+			"purecredits":"\n{{RepairCost}}{{AmmoCost}}{{EquipCost}}\n<font color='#C5AB5D' size='12'><textformat leading='4'>Итого: </font><font color='{{c:pureCredits}}' size='12'>{{pureCredits}}</font> <img src='img://gui/maps/icons/library/CreditsIcon-1.png' width='12' height='12' align='baseline' vspace='0'></textformat>",
+			"tmenXP":"  <font color='#C5AB5D' size='12'>Опыт экипажу: </font><font color='#BDBDBB' size='12'>{{tmenXP}}</font> <img src='img://gui/maps/icons/library/XpIcon-1.png' width='15' height='15' align='baseline' vspace='-2'>\n",
 			"achieves":"<img src='img://gui/maps/icons/library/PersonalAchievementsIcon-1.png' width='14' height='14' align='baseline' vspace='-3'> {{achieves}}",
-			"xpPenalty":" (<font color='#FF4500' size='11'>Штраф: {{xpPenalty}}</font><img src='img://gui/maps/icons/library/XpIcon-1.png' width='16' height='16' align='baseline' vspace='-4'>)",
-			"dailyXPFactor":"(<font color='#60FF00'>x{{dailyXPFactor}}</font>)",
-			"creditsContributionIn":"(<font color='#60FF00' size='11'>Компенсация: {{creditsContributionIn}}</font><img src='img://gui/maps/icons/library/CreditsIconBig-1.png' width='8' height='8' align='baseline' vspace='-2'>)\n",
-			"creditsContributionOut":"(<font color='#FF4500' size='11'>Штраф: {{creditsContributionOut}}</font><img src='img://gui/maps/icons/library/CreditsIconBig-1.png' width='8' height='8' align='baseline' vspace='-2'>)\n",
-			"quests":"{{quests}}"
+			"quests":"<font color='#A3966E' size='11'>{{quests}}</font>",
+			"dailyXPFactor":"(<font color='#66CC66'>x{{dailyXPFactor}}</font>)"
 			}
 	}
 }
