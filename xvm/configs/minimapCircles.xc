@@ -19,14 +19,6 @@
     ], 
     "special": [
       {
-        "usa-M6": {
-          "$ref": {
-            "path": "tankrange.circle_view"
-          }, 
-          "distance": 371.94299999999998
-        }
-      }, 
-      {
         "usa-T71": {
           "$ref": {
             "path": "tankrange.circle_view"
@@ -35,35 +27,11 @@
         }
       }, 
       {
-        "france-AMX_12t": {
-          "$ref": {
-            "path": "tankrange.circle_binocular"
-          }, 
-          "distance": 445
-        }
-      }, 
-      {
-        "france-AMX_12t": {
-          "$ref": {
-            "path": "tankrange.circle_view"
-          }, 
-          "distance": 388.14285714285717
-        }
-      }, 
-      {
         "ussr-KV-1s": {
           "$ref": {
             "path": "tankrange.circle_view"
           }, 
           "distance": 335.14800000000002
-        }
-      }, 
-      {
-        "ussr-KV2": {
-          "$ref": {
-            "path": "tankrange.circle_view"
-          }, 
-          "distance": 343.33199999999999
         }
       }, 
       {
@@ -211,43 +179,11 @@
         }
       }, 
       {
-        "usa-T1_Cunningham": {
-          "$ref": {
-            "path": "tankrange.circle_view"
-          }, 
-          "distance": 280.0
-        }
-      }, 
-      {
         "uk-GB76_Mk_VIC": {
           "$ref": {
             "path": "tankrange.circle_view"
           }, 
           "distance": 242.14285714285714
-        }
-      }, 
-      {
-        "ussr-Object_704": {
-          "$ref": {
-            "path": "tankrange.circle_binocular"
-          }, 
-          "distance": 445
-        }
-      }, 
-      {
-        "ussr-Object_704": {
-          "$ref": {
-            "path": "tankrange.circle_view"
-          }, 
-          "distance": 393.35399999999998
-        }
-      }, 
-      {
-        "usa-T34_hvy": {
-          "$ref": {
-            "path": "tankrange.circle_view"
-          }, 
-          "distance": 372.05331428571429
         }
       }, 
       {
@@ -315,22 +251,6 @@
         }
       }, 
       {
-        "germany-Sturer_Emil": {
-          "$ref": {
-            "path": "tankrange.circle_binocular"
-          }, 
-          "distance": 445
-        }
-      }, 
-      {
-        "germany-Sturer_Emil": {
-          "$ref": {
-            "path": "tankrange.circle_view"
-          }, 
-          "distance": 386.28571428571428
-        }
-      }, 
-      {
         "ussr-Object252": {
           "$ref": {
             "path": "tankrange.circle_binocular"
@@ -347,35 +267,11 @@
         }
       }, 
       {
-        "ussr-IS-3": {
-          "$ref": {
-            "path": "tankrange.circle_view"
-          }, 
-          "distance": 364.65000000000003
-        }
-      }, 
-      {
         "ussr-SU100M1": {
           "$ref": {
             "path": "tankrange.circle_view"
           }, 
           "distance": 360.0
-        }
-      }, 
-      {
-        "france-AMX_AC_Mle1948": {
-          "$ref": {
-            "path": "tankrange.circle_binocular"
-          }, 
-          "distance": 445
-        }
-      }, 
-      {
-        "france-AMX_AC_Mle1948": {
-          "$ref": {
-            "path": "tankrange.circle_view"
-          }, 
-          "distance": 366.07799999999997
         }
       }, 
       {
@@ -387,6 +283,14 @@
         }
       }, 
       {
+        "germany-JagdTiger": {
+          "$ref": {
+            "path": "tankrange.circle_view"
+          }, 
+          "distance": 364.92857142857144
+        }
+      }, 
+      {
         "ussr-ST_I": {
           "$ref": {
             "path": "tankrange.circle_binocular"
@@ -399,7 +303,7 @@
           "$ref": {
             "path": "tankrange.circle_view"
           }, 
-          "distance": 387.524
+          "distance": 387.60000000000002
         }
       }, 
       {
@@ -407,7 +311,15 @@
           "$ref": {
             "path": "tankrange.circle_view"
           }, 
-          "distance": 439.18285714285719
+          "distance": 441.10628571428578
+        }
+      }, 
+      {
+        "germany-T-15": {
+          "$ref": {
+            "path": "tankrange.circle_view"
+          }, 
+          "distance": 278.0
         }
       }, 
       {
@@ -415,15 +327,207 @@
           "$ref": {
             "path": "tankrange.circle_view"
           }, 
-          "distance": 346.11428571428576
+          "distance": 358.45714285714286
         }
       }, 
       {
-        "germany-JagdTiger": {
+        "ussr-T-46": {
           "$ref": {
             "path": "tankrange.circle_view"
           }, 
-          "distance": 364.92857142857144
+          "distance": 206.51428571428576
+        }
+      }, 
+      {
+        "ussr-SU122_44": {
+          "$ref": {
+            "path": "tankrange.circle_binocular"
+          }, 
+          "distance": 412.5
+        }
+      }, 
+      {
+        "ussr-SU122_44": {
+          "$ref": {
+            "path": "tankrange.circle_view"
+          }, 
+          "distance": 330.0
+        }
+      }, 
+      {
+        "ussr-Object_704": {
+          "$ref": {
+            "path": "tankrange.circle_binocular"
+          }, 
+          "distance": 445
+        }
+      }, 
+      {
+        "ussr-Object_704": {
+          "$ref": {
+            "path": "tankrange.circle_view"
+          }, 
+          "distance": 398.35714285714289
+        }
+      }, 
+      {
+        "ussr-IS-7": {
+          "$ref": {
+            "path": "tankrange.circle_view"
+          }, 
+          "distance": 417.14285714285717
+        }
+      }, 
+      {
+        "france-AMX_50_100": {
+          "$ref": {
+            "path": "tankrange.circle_view"
+          }, 
+          "distance": 426.36000000000007
+        }
+      }, 
+      {
+        "germany-JagdPzIV": {
+          "$ref": {
+            "path": "tankrange.circle_view"
+          }, 
+          "distance": 350.0
+        }
+      }, 
+      {
+        "ussr-IS-3": {
+          "$ref": {
+            "path": "tankrange.circle_view"
+          }, 
+          "distance": 364.65000000000003
+        }
+      }, 
+      {
+        "usa-M6": {
+          "$ref": {
+            "path": "tankrange.circle_view"
+          }, 
+          "distance": 364.13999999999999
+        }
+      }, 
+      {
+        "germany-Sturer_Emil": {
+          "$ref": {
+            "path": "tankrange.circle_view"
+          }, 
+          "distance": 400.0
+        }
+      }, 
+      {
+        "ussr-T-28": {
+          "$ref": {
+            "path": "tankrange.circle_view"
+          }, 
+          "distance": 277.48571428571432
+        }
+      }, 
+      {
+        "ussr-KV2": {
+          "$ref": {
+            "path": "tankrange.circle_view"
+          }, 
+          "distance": 330.0
+        }
+      }, 
+      {
+        "usa-T34_hvy": {
+          "$ref": {
+            "path": "tankrange.circle_view"
+          }, 
+          "distance": 361.54285714285714
+        }
+      }, 
+      {
+        "usa-M103": {
+          "$ref": {
+            "path": "tankrange.circle_view"
+          }, 
+          "distance": 364.46057142857143
+        }
+      }, 
+      {
+        "france-AMX_AC_Mle1948": {
+          "$ref": {
+            "path": "tankrange.circle_view"
+          }, 
+          "distance": 374.16514285714283
+        }
+      }, 
+      {
+        "china-Ch04_T34_1": {
+          "$ref": {
+            "path": "tankrange.circle_binocular"
+          }, 
+          "distance": 445
+        }
+      }, 
+      {
+        "china-Ch04_T34_1": {
+          "$ref": {
+            "path": "tankrange.circle_view"
+          }, 
+          "distance": 357.31428571428569
+        }
+      }, 
+      {
+        "france-AMX_12t": {
+          "$ref": {
+            "path": "tankrange.circle_view"
+          }, 
+          "distance": 380.0
+        }
+      }, 
+      {
+        "usa-T1_Cunningham": {
+          "$ref": {
+            "path": "tankrange.circle_view"
+          }, 
+          "distance": 308.0
+        }
+      }, 
+      {
+        "usa-M4A2E4": {
+          "$ref": {
+            "path": "tankrange.circle_binocular"
+          }, 
+          "distance": 445
+        }
+      }, 
+      {
+        "usa-M4A2E4": {
+          "$ref": {
+            "path": "tankrange.circle_view"
+          }, 
+          "distance": 370.0
+        }
+      }, 
+      {
+        "usa-M3_Stuart": {
+          "$ref": {
+            "path": "tankrange.circle_view"
+          }, 
+          "distance": 270.60000000000002
+        }
+      }, 
+      {
+        "france-AMX_13_75": {
+          "$ref": {
+            "path": "tankrange.circle_view"
+          }, 
+          "distance": 378.30000000000001
+        }
+      }, 
+      {
+        "ussr-KV1": {
+          "$ref": {
+            "path": "tankrange.circle_view"
+          }, 
+          "distance": 300.69999999999999
         }
       }
     ]
