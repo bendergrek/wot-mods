@@ -42,7 +42,7 @@
       <sensitivity>0.0025</sensitivity>
       <scrollSensitivity>	5	</scrollSensitivity>
       <angleRange>10 110</angleRange>
-      <distRange>2 25</distRange>
+      <distRange>2 250</distRange>
       <fovMultMinDist>0.75</fovMultMinDist>
       <fovMultMaxDist>1.0</fovMultMaxDist>
       <dynamics>
@@ -103,8 +103,8 @@
       <sensitivity>0.0025</sensitivity>
       <scrollSensitivity>	5	</scrollSensitivity>
       <angleRange>10 110</angleRange>
-      <distRange>2 25</distRange>
-      <minStartDist>0.0</minStartDist>
+      <distRange>2 250</distRange>
+      <minStartDist>	15	</minStartDist>
       <optimalStartDist>	20	</optimalStartDist>
       <fovMultMinDist>0.75</fovMultMinDist>
       <fovMultMaxDist>1.0</fovMultMaxDist>
@@ -164,7 +164,7 @@
       <keySensitivity>0.5</keySensitivity>
       <sensitivity>0.05</sensitivity>
       <scrollSensitivity>0.25</scrollSensitivity>
-      <distRange>40 100</distRange>
+      <distRange>4 500</distRange>
       <fovMult>1.0</fovMult>
       <dynamics>
         <oscillator>

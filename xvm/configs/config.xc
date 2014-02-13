@@ -4,7 +4,7 @@
     "format":  "<font size='11'>{{avglvl}} <font color='#111111'><b><font color='{{c:tdv}}'>·</font><font color='{{c:tfb}}'>·</font><font color='{{c:tsb}}'>·</font></b></font> <font color='{{c:e}}'>{{e}}</font>|<font color='{{c:xeff}}'>{{xeff}}</font>|<font color='{{c:eff}}'>{{eff}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:twr}}'>{{twr}}</font></font>"
   },
   "battle": {
-    "mirroredVehicleIcons": false,
+    "mirroredVehicleIcons": true,
     "showPostmortemTips": false,
 	"removePanelsModeSwitcher": false,
 	"highlightVehicleIcon": true,
