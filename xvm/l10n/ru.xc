@@ -6,11 +6,19 @@
     // Author of translation
     "XVM_translator": "XVM Team",
 
+    // Ping
+    "Initialization": "Инициализация",
+
+    // BattleLoading
+    "New version available": "Доступна новая версия",
+
     // Win chance
     "Chance error": "Ошибка расчета шансов",
-    "Chance to win": "Шанс на победу",
-    "global": "общий",
-    "per-vehicle": "по технике",
+    "Chance to win": "Шансы на победу",
+    //"global": "общий",
+    //"per-vehicle": "по технике",
+    "chanceLive": "Для живых",
+    "chanceBattleTier": "Уровень боя",
 
     // Hitlog
     "attack": "атака",
@@ -32,63 +40,71 @@
     "Timeleft": "Осталось",
     "Capturers": "Захватчиков",
 
-    // FinalStatistics
+    // BattleResults
     "Hit percent": "Процент попаданий",
-    "Damage upon detecting": "Урон по вашим разведданным",
-    "Damage dealt": "Нанесенный урон",
+    "Damage (assisted / own)": "Урон (с вашей помощью / свой)",
 
     // TeamRenderers
-    "TeamRenderersHeaderTip": "Рейтинг xwn (или xeff).\nЧтобы увидеть более подробную информацию, наведите курсор мыши на значение рейтинга интересующего игрока.",
     "Friend": "Друг",
     "Ignored": "Игнор",
-    "Load statistics": "Загрузить статистику",
-    "enabled": "включено",
-    "disabled": "выключено",
-
-    // UserInfo
-    "UserInfoEHint": "Эффективность по танку.\nЗначение указано на момент последнего обновления статистики: \u0025DATE\u0025\nАктуальное значение на текущий момент - в детальной информации по технике.\nПравильность значений в колонке зависит от качества полученных исходных данных.",
-    "Data was updated at": "Данные были обновлены",
-    " to ": " до ",
-    "EFF": "РЭ",
-    "updated": "обновлено",
     "unknown": "неизвестно",
-    "Avg level": "Ср. уровень",
-    "Spotted": "Засвет",
-    "Defence": "Защита",
-    "Capture": "Захват",
-    "player (average / top)": "игрок (средний / топ)",
-    "Spec dmg": "Уд. дамаг",
-
-    // UserInfo - filters
-    "Filter": "Фильтр",
-    "All tanks": "Все танки",
-    "Show all tanks in the game": "Показать все танки в игре",
-    "Player tanks": "Танки игрока",
-    "Show all tanks played": "Показать все танки, на которых играл",
-    "In hangar": "В ангаре",
-    "Show only tanks in own hangar": "Показать только танки в своем ангаре",
-
-    // UserInfo - buttons
-    "Level": "Уровень",
-    "Type": "Тип",
-    "Nation": "Нация",
-    "Name": "Имя",
     "Fights": "Боёв",
     "Wins": "Побед",
+    "Data was updated at": "Данные были обновлены",
+    "Load statistics": "Загрузить статистику",
+
+    // UserInfo
+    "General stats": "Общая статистика",
+    "Summary": "Общие результаты",
+    "Avg level": "Средний уровень",
+    "WN6": "WN6",
+    "WN8": "WN8",
+    "EFF": "РЭ",
+    "updated": "обновлено",
+    " to ": " до ",
+    "avg": "ср.",
+    "top": "топ",
+    "draws": "ничьих",
+    "Maximum damage": "Максимальный урон",
+    "Specific damage (Avg dmg / HP)": "Уд. урон (ср. урон / прочность)",
+    "Capture points": "Очки захвата",
+    "Defence points": "Очки защиты",
+    "Filter": "Фильтр",
+    "Extra data (WoT 0.8.8+)": "Доп. данные (WoT 0.8.8+)",
+    "Average battle time": "Среднее время жизни в бою",
+    "Average battle time per day": "Среднее время игры в день",
+    "Battles after 0.8.8": "Боев после 0.8.8",
+    "Average experience": "Средний опыт",
+    "Average experience without premium": "Средний опыт без премиума",
+    "Average distance driven per battle": "В среднем пройдено км за бой",
+    "Average woodcuts per battle": "В среднем повалено деревьев за бой",
+    "Average damage assisted": "Средний урон с вашей помощью",
+    "    by tracking": "    после сбития гусеницы",
+    "    by spotting": "    по разведданным",
+    "Average HE shells fired (splash)": "Средний урон фугасами (сплэш)",
+    "Average HE shells received (splash)": "Средний полученный урон фугасами",
+    "Average penetrations per battle": "В среднем пробитий за бой",
+    "Average hits received": "В среднем получено попаданий",
+    "Average penetrations received": "В среднем получено пробитий",
+    "Average ricochets received": "В среднем получено рикошетов",
 
     // Crew
     "PutOwnCrew": "Родной экипаж",
     "PutBestCrew": "Лучший экипаж",
+    "PutClassCrew": "Экипаж того же класса",
 
     // Squad
     "Vehicle": "Танк",
     "Battle tiers": "Уровень боёв",
+    "Type": "Тип",
+    "Nation": "Нация",
     "ussr": "СССР",
     "germany": "Германия",
     "usa": "США",
     "france": "Франция",
     "uk": "Великобритания",
     "china": "Китай",
+    "japan": "Япония",
     "HT": "ТТ",
     "MT": "СТ",
     "LT": "ЛТ",
@@ -96,6 +112,18 @@
     "SPG": "САУ",
 
     // VehicleMarkersManager
-    "blownUp": "Fuck yeah!"
+    "blownUp": "Взрыв БК!",
+
+    //Token
+    "token/network_error": "Ошибка сети.\nСтатистика XVM недоступна, попробуйте позже.",
+    "token/bad_token": "Неверный токен.\n{{l10n:token/notify_xvm_site}}",
+    "token/blocked": "Статус: <font color='#FF0000'>Заблокирован</font>\n{{l10n:token/notify_xvm_site}}",
+    "token/inactive": "Статус: <font color='#FFFF00'>Неактивен</font>\n{{l10n:token/notify_xvm_site}}",
+    "token/active": "Статус:<tab><font color='#00FF00'>Активен</font>",
+    "token/days_left": "Осталось дней:<tab/><font color='#eeeeee'>{0}</font>",
+    "token/hours_left": "Осталось часов:<tab/><font color='#ffff00'>{0}</font>",
+    "token/cnt": "Количество запросов:<tab/><font color='#eeeeee'>{0}</font>",
+    "token/unknown_status": "Неизвестный статус",
+    "token/notify_xvm_site": "Пожалуйста, перейдите на <a href='#XVM_SITE#'>сайт XVM</a> и активируйте статистику в личном кабинете."
   }
 }
