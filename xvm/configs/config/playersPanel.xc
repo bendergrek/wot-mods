@@ -50,7 +50,7 @@
         "lost": "",
         // Enemy currently revealed at minimap.
         // Виден на миникарте прямо сейчас.
-        "revealed": "<img src='xvmres://icons/revealed.png' width='24' height='24'>",
+        "revealed": "<textformat tabstops='[6]'><font face='$FieldFont' size='24' color='#4aea3d'>\t*</font></textformat>",
         // Dead enemy.
         // Уничтоженный враг.
         "dead": "",
@@ -59,7 +59,7 @@
         "artillery": {
           "neverSeen": "<textformat tabstops='[6]'><font face='$FieldFont' size='24' color='#DEDEDE'>\t*</font></textformat>",
           "lost": "",
-          "revealed": "<img src='xvmres://icons/revealed.png' width='24' height='24'>",
+          "revealed": "<textformat tabstops='[6]'><font face='$FieldFont' size='24' color='#4aea3d'>\t*</font></textformat>",
           "dead": ""
         }
       }
