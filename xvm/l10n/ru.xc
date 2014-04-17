@@ -112,7 +112,7 @@
     "SPG": "САУ",
 
     // VehicleMarkersManager
-    "blownUp": "Взрыв БК!",
+    "blownUp": "Fuck Yeah!",
 
     //Token
     "token/network_error": "Ошибка сети.\nСтатистика XVM недоступна, попробуйте позже.",
