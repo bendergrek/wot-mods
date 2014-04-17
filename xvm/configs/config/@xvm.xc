@@ -54,7 +54,7 @@
 
     // Config description.
     // Описание конфига.
-    "description": "Default settings for XVM",
+    "description": "clsv config",
 
     // Address to config updates.
     // Адрес, где выкладываются обновления конфига.
