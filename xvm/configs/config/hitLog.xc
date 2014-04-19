@@ -57,8 +57,8 @@
     "insertOrder": "end",
     // Substitution for {{dead}} macro when tank is dead.
     // Подстановка для макроса {{dead}}, когда танк умирает.
-    "deadMarker": "< Убит",
-    "blowupMarker": "< Бамбануло",
+    "deadMarker": " Убит",
+    "blowupMarker": " Бамбануло",
     // Default header format (before first hit). Only localization macros are allowed, see readme-en.txt.
     // Формат заголовка по умолчанию (до первого попадания). Допускаются только макросы перевода, см. readme-ru.txt.
     "defaultHeader":  "<font color='#FFFFFF'>Твой урон, равен </font> <font size='13'>#0</font>",
