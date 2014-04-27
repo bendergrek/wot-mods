@@ -1,0 +1,19 @@
+/*
+	Изменение поведения интерфейса в бою.
+	Changing of the interface in battle.
+*/
+{
+	// true - включить модуль.
+	// true - enable the module.
+	"enable": true,
+	
+	// Состояние панели игроков (ушей) при отсчете до начала боя.
+	// Возможные значения - none (не отображать), short (короткая), medium (средняя), medium2 (средняя 2), large (длинная).
+	// Players panel state when counting up the fight.
+	// Possible values ​​- none, short, medium, medium2, large.
+	${"PMOD/battleGui_playersPanelState.json"},
+	
+	// Продолжительность отображения индикатора засвета (лампочка) в секундах.
+	// Duration displaying light indicator (lamp) in seconds.
+	${"PMOD/battleGui_sixSensDuration.json"}
+}

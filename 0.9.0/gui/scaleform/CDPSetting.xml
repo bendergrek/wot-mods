@@ -64,7 +64,7 @@
 	</battle>
 	
 	<!-- Настройка фона панели -->
-	<background alpha="50"> <!-- alpha - прозрачность. 100 - непрозрачно, 0 - прозрачно -->
+	<background alpha="80"> <!-- alpha - прозрачность. 100 - непрозрачно, 0 - прозрачно -->
 		<location x="0" y="0" center="false"/> <!-- x, y - координаты расположения элемента. Отсчет координат идет от верхнего левого угла панели. center - включение отсчета x координаты от центра экрана, true/false - включено/выключено -->
 		<scale x="100" y="100"/> <!-- x, y - масштаб элемента в процентах. 100 - оригинальный размер -->
 	</background>
@@ -130,19 +130,19 @@
 		<text alpha="100" width="230" height="25"/>  <!-- alpha - прозрачность тени(100 - непрозрачно, 0 - прозрачно). width, height - ширина и высота поля -->
 		<filter size="3" angle="0" distance="0" color="0x000000" alpha="100" strength="200"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени(100 - непрозрачно, 0 - прозрачно). strength - степень нанесения тени в процентах -->
 		<format><![CDATA[<font face='Cuprum' size='14' color='#FFFFFF'><p align='center'>{{hp}} / {{hp-max}}</p></font>]]></format> <!-- HTML-строка. Формируется она из макросов и(или) любых символов. Список макросов перечислен в начале конфига -->
-	</healthField>		
+	</healthField>
 	
 	<!-- Настройка журнала полученного урона -->
 	<damageLog visible="true"> <!-- visible - видимость элемента, true/false - включено/выключено -->
-		<location x="235" y="3" center="false"/> <!-- x, y - координаты расположения элемента. Отсчет координат идет от верхнего левого угла панели. center - включение отсчета x координаты от центра экрана, true/false - включено/выключено -->
-		<text alpha="100"  width="350" height="226"/> <!-- alpha - прозрачность тени(100 - непрозрачно, 0 - прозрачно). width, height - ширина и высота поля --> 
+		<location x="235" y="-3" center="false"/> <!-- x, y - координаты расположения элемента. Отсчет координат идет от верхнего левого угла панели. center - включение отсчета x координаты от центра экрана, true/false - включено/выключено -->
+		<text alpha="100" width="450" height="226"/> <!-- alpha - прозрачность тени(100 - непрозрачно, 0 - прозрачно). width, height - ширина и высота поля -->
 		<filter size="3" angle="0" distance="0" color="0x000000" alpha="100" strength="200"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени(100 - непрозрачно, 0 - прозрачно). strength - степень нанесения тени в процентах -->
-		<format><![CDATA[<textformat leading='5' tabstops='[25,65,90,180]'><font face='Cuprum' size='15' color='#FFFFFF'>{{count}}:<tab><font color='{{c:dmgKind}}'>-{{dmg-one}}</font><tab><font color='{{c:shellGold}}'>{{atk-shell}}</font><tab>{{atk-veh-short}}</font></textformat>]]></format> <!-- HTML-строка. Формируется она из макросов и(или) любых символов. Список макросов перечислен в начале конфига -->
-                <direction>up</direction> <!-- Направление записи в журнал. up - последний урон всегда вверху, down - последний урон всегда внизу -->
+		<format><![CDATA[<textformat leading='5' tabstops='[30,70,100,180]'><b><font face='Cuprum' size='15' color='#FFFFFF'>{{count}}:<tab><font color='{{c:dmgKind}}'>{{dmg-one}}</font><tab><font color='{{c:shellGold}}'>{{atk-shell}}</font><tab><font color='{{c:vehType}}'>{{atk-veh-short}}</font><tab>{{atk-name-short}}</font></b></textformat>]]></format> <!-- HTML-строка. Формируется она из макросов и(или) любых символов. Список макросов перечислен в начале конфига -->
+		<direction>down</direction> <!-- Направление записи в журнал. up - последний урон всегда вверху, down - последний урон всегда внизу -->
 		<notPierced visible="false"> <!-- Показывать не пробития и рикошеты, true/false - включено/выключено -->
 			<format><![CDATA[<textformat leading='5' tabstops='[30,70,100,180]'><b><font face='Cuprum' size='15' color='#FFFFFF'>{{count}}:<tab><font color='{{c:dmgKind}}'>{{dmg-one}}</font><tab><font color='{{c:shellGold}}'>{{atk-shell}}</font><tab><font color='{{c:vehType}}'>{{atk-veh-short}}</font><tab>{{atk-name-short}}</font></b></textformat>]]></format> <!-- HTML-строка. Формируется она из макросов и(или) любых символов. Список макросов перечислен в начале конфига -->
 		</notPierced>
-	</damageLog>	
+	</damageLog>
 	
 	<!-- Настройка всплывающего сообщения о последнем полученном уроне -->
 	<damageHit visible="true"> <!-- visible - видимость элемента, true/false - включено/выключено -->
@@ -203,13 +203,13 @@
 		<filter size="3" angle="0" distance="0" color="0x000000" alpha="100" strength="200"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени(100 - непрозрачно, 0 - прозрачно). strength - степень нанесения тени в процентах -->
 		<format><![CDATA[<font face='Cuprum' size='14' color='#FFFFFF'><p align='right'>{{vehicle}}</p></font>]]></format> <!-- HTML-строка. Формируется она из макросов и(или) любых символов. Список макросов перечислен в начале конфига -->
 	</vehicleName>
-	
+
 	<!-- Настройка цветов -->
 	<colors>
-		<shellGold credits="#FFFFFF" gold="#FFDD33"/> <!-- Цвет по типу снаряда {{c:shellGold}}. credits - кредиты. gold - золото -->
+		<shellGold credits="#FFFFFF" gold="#FF6655"/> <!-- Цвет по типу снаряда {{c:shellGold}}. credits - кредиты. gold - золото -->
 		<dmgKind attack="#FFAA55" fire="#FF6655" ramming="#998855" collision="#228855"/> <!-- Цвет по типу урона {{c:dmgKind}}. attack - пробитие/осколки. fire - пожар. ramming - таран. collision - столкновение с объектами/падение -->
 		<vehType LT="#A2FF9A" MT="#FFACAC" HT="#FFF198" SPG="#EFAEFF" TD="#A0CFFF"/> <!-- Цвет по типу техники {{c:vehType}}. LT - легкий танк. MT - средний танк. HT - тяжелый танк. SPG - САУ. TD - ПТ-САУ -->
-                <hitKind ricochet="#FFFFFF" notPierced="#FFFFFF" piercedNoDmg="#FFFFFF" piercedDmg="#FF0000" critical="#FFFFFF" explosion="#FFFFFF"/> <!-- Цвет по типу попадания {{c:hitKind}}. ricochet - рикошет. notPierced - броня не пробита. piercedNoDmg - броня пробита без урона. piercedDmg - броня пробита с уроном. critical - критическое повреждение. explosion - повреждение от взрыва ОФ снаряда -->
+		<hitKind ricochet="#FFFFFF" notPierced="#FFFFFF" piercedNoDmg="#FFFFFF" piercedDmg="#FF0000" critical="#FFFFFF" explosion="#FFFFFF"/> <!-- Цвет по типу попадания {{c:hitKind}}. ricochet - рикошет. notPierced - броня не пробита. piercedNoDmg - броня пробита без урона. piercedDmg - броня пробита с уроном. critical - критическое повреждение. explosion - повреждение от взрыва ОФ снаряда -->
 	</colors>
 	
 	<!-- Настройка отображения типов снарядов. Для макроса {{atk-shell-gold}} -->

@@ -1,0 +1,16 @@
+/*
+	Информация об вашем респауне на экране загрузки.
+	Information about your spawn on the loading screen.
+*/
+{
+	// true - включить модуль.
+	// true - enable the module.
+	"enable" : true,
+	
+	// Текстовые подстановки с информацией о вашем респауне.
+	// Text substitution with information of your spawn.
+	"textTopRespaun" : "Верхняя база",
+	"textBottomRespaun" : "Нижняя база",
+	"textLeftRespaun" : "Левая база",
+	"textRightRespaun" : "Правая база"
+}

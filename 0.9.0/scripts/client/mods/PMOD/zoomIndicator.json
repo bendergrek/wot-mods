@@ -1,0 +1,41 @@
+/*
+	Зум индикатор.
+	Zoom indicator.
+*/
+{
+	// true - включить модуль.
+	// true - enable the module.
+	"enable" : true,
+
+	// Позиция индикатора на экране.
+	// Отступ, с левого края экрана и с верхнего края экрана.
+	// Indicator position on the screen.
+	// Indented from the left side of the screen and the top side of the screen.
+	"position" : [400, 360],
+	
+	// Цвет надписи индикатора.
+	// Значение цвета либо в палитре RGBA (красный, зелёный, синий, прозрачность) - [r, g, b, a]
+	// либо заранее предусмотренный цвет: red, green, blue, gray, black, white, yellow, magenta - "color"
+	// Display color of the indicator.
+	// Importance color in a RGBA palette (red, green, blue, transparency) - [r, g, b, a]
+	// or advance provided color: red, green, blue, gray, black, white, yellow, magenta - "color"
+	"color" : "white",
+	
+	// Текст надписи индикатора.
+	// Вместо %s будет подставлено текущее значение кратности.
+	// Label text indicator.
+	// Instead of %s will be inserted the current value of multiplicity.
+	"mesegge" : "Zoom: X%s",
+	
+	// Тень от надписи индикатора.
+	// минимальное значение - 0, максимальное значение - 100, стандартное значение - 55.
+	// Shadow of the label of the indicator.
+	// minimum value - 0, the maximum value - 100, default value - 5.
+	"shadow" : 55,
+	
+	// Размер шрифта надписи индикатора.
+	// small - Arial 11, medium - Verdana 15, large - Verdana 20.
+	// Font size inscriptions indicator.
+	// small - Arial 11, medium - Verdana 15, large - Verdana 20.
+	"fontSize" : "large"
+}

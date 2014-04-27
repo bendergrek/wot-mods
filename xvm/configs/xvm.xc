@@ -1,4 +1,4 @@
-/**  
+﻿/**  
  * The boot configs file. To use - rename to xvm.xc.
  *
  * Reference format: ${"path to config file":"."}
@@ -16,6 +16,5 @@
  *
  * Формат ссылки: ${"путь к файлу конфига":"."}
  * // - закомментировать строку (использоваться не будет)
- */                
-            
-${"config/@xvm.xc":"."}
+ */ 
+${"configs/@xvm.xc":"."}	

@@ -1,0 +1,24 @@
+﻿{
+    "clsv": {
+        "Date": "2014.04.27.00",
+        "accStat": {
+            "credits": 261091,
+            "freeXP": 244871,
+            "gold": 1877
+        },
+        "dossier": {
+            "Battles": 13686.0,
+            "CapturePoints": 28040.0,
+            "DamageDealt": 13559464.0,
+            "DamageReceived": 9424991.0,
+            "DroppedCapturePoints": 13734.0,
+            "Frags": 15459.0,
+            "Losses": 5440.0,
+            "SpottedEnemies": 13165.0,
+            "Wins": 7988.0,
+            "XP": 7785512.0
+        },
+        "session": {},
+        "ver": "0.9.0 #4"
+    }
+}

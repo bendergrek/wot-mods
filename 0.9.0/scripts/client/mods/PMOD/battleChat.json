@@ -1,0 +1,17 @@
+/*
+	// Игровой чат в бою.
+	// Ingame chat in battle.
+*/
+{
+	// true - включить модуль.
+	// true - enable the module.
+	"enable": true,
+	
+	// Фильтр игрового чата.
+	// Ingame chat filter.
+	${"PMOD/battleChat_cleaner.json"},
+	
+	// Информер результатов о завершенном бое в чат.
+	// Informer results of completed battle to chat.
+	${"PMOD/battleChat_resultInformer.json"}
+}

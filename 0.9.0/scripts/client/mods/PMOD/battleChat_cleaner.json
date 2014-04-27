@@ -1,0 +1,14 @@
+/*
+	Фильтр игрового чата.
+	Ingame chat filter.
+*/
+"cleaner": {
+	
+	// true - включить функцию.
+	// true - enable function.
+	"enable": true,
+	
+	// Список предложений по которым удаляются сообщения.
+	// List of proposals which deletes the message.
+	"mask": ["мам", "пап", "еба", "соси"]
+}
