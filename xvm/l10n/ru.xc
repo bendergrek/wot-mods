@@ -3,9 +3,6 @@
  */
 {
   "locale": {
-    // Author of translation
-    "XVM_translator": "XVM Team",
-
     // Ping
     "Initialization": "Инициализация",
 
@@ -112,7 +109,7 @@
     "SPG": "САУ",
 
     // VehicleMarkersManager
-    "blownUp": "Fuck Yeah!",
+    "blownUp": "Взрыв БК!",
 
     //Token
     "token/network_error": "Ошибка сети.\nСтатистика XVM недоступна, попробуйте позже.",
