@@ -85,7 +85,7 @@
       "width": 65,
       // Display format for the left panel (macros allowed, see readme-en.txt).
       // Формат отображения для левой панели (допускаются макроподстановки, см. readme-ru.txt).
-      "formatLeft": "<font color='{{c:eff}'>{{vehicle}}</font>",
+      "formatLeft": "<font color='{{c:eff}}'>{{vehicle}}</font>",
       // Display format for the right panel (macros allowed, see readme-en.txt).
       // Формат отображения для правой панели (допускаются макроподстановки, см. readme-ru.txt).
       "formatRight": "<font color='{{c:eff}}'>{{vehicle}}</font>"
