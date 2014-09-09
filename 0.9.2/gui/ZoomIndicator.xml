@@ -1,5 +1,5 @@
 <ZoomIndicator.xml>
-  <enable>True</enable>
+  <enable>False</enable>
   <shadow>False</shadow>
   <text>
     <color>
