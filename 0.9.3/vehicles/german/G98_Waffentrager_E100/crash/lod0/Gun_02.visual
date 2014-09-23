@@ -1,0 +1,24 @@
+<gun_02.visual>
+  <node>
+    <identifier>Scene Root</identifier>
+    <transform>
+      <row0>	1.000000 0.000000 0.000000	</row0>
+      <row1>	0.000000 1.000000 0.000000	</row1>
+      <row2>	0.000000 0.000000 1.000000	</row2>
+      <row3>	0.000000 0.000000 0.000000	</row3>
+    </transform>
+  </node>
+  <renderSet>
+    <treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+    <node>Scene Root</node>
+    <geometry>
+      <vertices>	vertices	</vertices>
+      <primitive>indices</primitive>
+      <primitiveGroup>	0	<material><identifier>tank_mat</identifier><fx>shaders/std_effects/PBS_tank_old.fx</fx><collisionFlags>	0	</collisionFlags><materialKind>	0	</materialKind><property>crash_coefficient<Float>0.3</Float></property><property>normalMap<Texture>vehicles/german/G98_Waffentrager_E100/Waffentrager_E100_NM.dds</Texture></property><property>diffuseMap<Texture>vehicles/german/G98_Waffentrager_E100/Waffentrager_E100_1_crash.dds</Texture></property><property>specularMap<Texture>vehicles/german/G98_Waffentrager_E100/Waffentrager_E100_SM.dds</Texture></property><property>g_defaultPBSConversionParams<Bool>	false	</Bool></property><property>g_albedoConversions<Vector4>0.05 0.528 0.794 0.000000</Vector4></property><property>g_glossConversions<Vector4>0.27 0.314 0.637 0.833</Vector4></property><property>g_metallicConversions<Vector4>0.025 0.212 0.735 3.186</Vector4></property><property>g_albedoCorrection<Vector4>1 1 1 1</Vector4></property></material></primitiveGroup>
+    </geometry>
+  </renderSet>
+  <boundingBox>
+    <min>	-1.228510 -0.960016 -1.803444	</min>
+    <max>	0.802083 0.812596 5.522254	</max>
+  </boundingBox>
+</gun_02.visual>

@@ -1,0 +1,53 @@
+<turret_02.visual>
+  <node>
+    <identifier>Scene Root</identifier>
+    <transform>
+      <row0>	1.000000 0.000000 0.000000	</row0>
+      <row1>	0.000000 1.000000 0.000000	</row1>
+      <row2>	0.000000 0.000000 1.000000	</row2>
+      <row3>	0.000000 0.000000 0.000000	</row3>
+    </transform>
+    <node>
+      <identifier>HP_gunJoint</identifier>
+      <transform>
+        <row0>	1.000000 0.000000 0.000000	</row0>
+        <row1>	0.000000 1.000000 0.000000	</row1>
+        <row2>	0.000000 0.000000 1.000000	</row2>
+        <row3>	0.000000 0.285941 1.132004	</row3>
+      </transform>
+    </node>
+    <node>
+      <identifier>	lod1	</identifier>
+      <transform>
+        <row0>	1.000000 0.000000 0.000000	</row0>
+        <row1>	0.000000 1.000000 0.000000	</row1>
+        <row2>	0.000000 0.000000 1.000000	</row2>
+        <row3>	0.000000 0.000000 0.000000	</row3>
+      </transform>
+      <node>
+        <identifier>turret_02</identifier>
+        <transform>
+          <row0>	1.000000 0.000000 0.000000	</row0>
+          <row1>	0.000000 1.000000 0.000000	</row1>
+          <row2>	0.000000 0.000000 1.000000	</row2>
+          <row3>	-0.001033 -1.609628 -0.583339	</row3>
+        </transform>
+      </node>
+    </node>
+  </node>
+  <renderSet>
+    <treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+    <node>Scene Root</node>
+    <geometry>
+      <vertices>	vertices	</vertices>
+      <stream>uv2</stream>
+      <stream>colour</stream>
+      <primitive>indices</primitive>
+      <primitiveGroup>	0	<material><identifier>tank_mat</identifier><fx>shaders/std_effects/PBS_tank_old.fx</fx><collisionFlags>	0	</collisionFlags><materialKind>	0	</materialKind><property>	metallicGlossMap	<Texture>vehicles/chinese/Ch11_110/110_SM.dds</Texture></property><property>normalMap<Texture>vehicles/chinese/Ch11_110/110_NM.dds</Texture></property><property>diffuseMap<Texture>vehicles/chinese/Ch11_110/110_crash.dds</Texture></property><property>crash_coefficient<Float>0.3</Float></property><property>specularMap<Texture>vehicles/chinese/Ch11_110/110_SM.dds</Texture></property><property>g_defaultPBSConversionParams<Bool>	false	</Bool></property><property>g_albedoConversions<Vector4>0.055 0.549 0.897 0.4</Vector4></property><property>g_glossConversions<Vector4>0.1 0.588 0.637 0.73</Vector4></property><property>g_metallicConversions<Vector4>0.025 0.15 0.739 4.412</Vector4></property><property>g_albedoCorrection<Vector4>1 1 1 1</Vector4></property></material></primitiveGroup>
+    </geometry>
+  </renderSet>
+  <boundingBox>
+    <min>	-1.297609 -0.076608 -1.450214	</min>
+    <max>	1.416494 1.620663 1.433036	</max>
+  </boundingBox>
+</turret_02.visual>

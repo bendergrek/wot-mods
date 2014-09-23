@@ -1,0 +1,28 @@
+<ZoomIndicator.xml>
+  <enable>False</enable>
+  <shadow>False</shadow>
+  <text>
+    <color>
+      <R>171</R>
+      <G>223</G>
+      <B>92</B>
+      <A>255</A>
+    </color>
+    <position>
+      <X>860</X>
+      <Y>300</Y>
+    </position>
+    <colorS>
+      <R>171</R>
+      <G>223</G>
+      <B>92</B>
+      <A>255</A>
+    </colorS>
+    <positionS>
+      <X>862</X>
+      <Y>302</Y>
+    </positionS>
+  </text>
+  <fText>x</fText>
+  <eText></eText>
+</ZoomIndicator.xml>
